@@ -296,7 +296,8 @@ let isAdultPresent = null
 // Complete the exercise in the space below:
 
 isAdultPresent = devs.some((dev) => {
-  return new Date().getFullYear() - dev.year >= 18
+  let x = 2024
+  return x - dev.year >= 18
 })
 // Check your work:
 console.log('Exercise 6 my result: ', isAdultPresent)
@@ -320,7 +321,8 @@ let isEveryone19OrOlder = null
 // Complete the exercise in the space below:
 
 isEveryone19OrOlder = devs.every((dev) => {
-  return new Date().getFullYear - dev.year > 19
+  let x = 2024
+  return x - dev.year > 19
 })
 
 // Check your work:
